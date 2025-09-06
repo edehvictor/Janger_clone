@@ -76,7 +76,7 @@ export default function JagerHunterPage() {
       <div className="">
         <header className=" relative z-50">
           <div className="flex  md:flex-row items-center justify-between w-full gap-x-4 md:px-8 px-4 py-4">
-            <div className="flex-shrink-0 mb-4 md:mb-0">
+            <div className="flex-shrink-0  md:mb-0">
               <Image
                 src="/icons/logo.webp"
                 alt="Logo"
@@ -137,7 +137,10 @@ export default function JagerHunterPage() {
         <section className="px-4 relative z-50">
           <nav className="md:hidden  flex flex-row items-center space-x-2.5 justify-center ">
             {["Airdrop", "HunterTime", " JagerBNB"].map((item) => (
-              <p key={item} className=" cursor-pointer text-[#FF8801] ">
+              <p
+                key={item}
+                className=" cursor-pointer text-[#FF8801] text-sm leading-relaxed "
+              >
                 {item}
               </p>
             ))}
@@ -155,8 +158,8 @@ export default function JagerHunterPage() {
 
         {/* Main Content */}
         <main className="px-4 md:px-8 py-8 relative z-50">
-          <section className=" md:text-start mb-12">
-            <div className="max-w-7xl md:mx-auto flex md:justify-start mt-10">
+          <section className=" md:text-start mb-12 text-sm leading-relaxed">
+            <div className="max-w-7xl md:mx-auto flex md:justify-start mt-5 mb-5">
               <Image
                 src="/images/what.webp"
                 alt="hero banner"
@@ -165,17 +168,17 @@ export default function JagerHunterPage() {
                 className=" w-64 max-w-full h-auto"
               />
             </div>
-            <div className=" text-[16px] leading-9 mb-6">
+            <div className=" text-sm leading-relaxed mb-6">
               {" "}
               <p className="text-white ">
                 {" "}
-                <span className="">
+                <span className=" text-sm leading-relaxed">
                   {" "}
                   A $JAGER is the smallest unit of BNB. 1 $JAGER = 0.00000001
                   BNB{" "}
                 </span>{" "}
               </p>{" "}
-              <p className="text-white">
+              <p className="text-white ">
                 {" "}
                 The name $JAGER was proposed by Binances earliest supporters in
                 its Telegram group during the exchanges founding days.{" "}
@@ -199,13 +202,13 @@ export default function JagerHunterPage() {
                 <Image
                   src="/images/hunter.webp"
                   alt="Logo"
-                  width={40}
-                  height={40}
+                  width={30}
+                  height={30}
                 />{" "}
               </div>{" "}
             </div>{" "}
           </section>
-          <section className="">
+          <section className="text-sm leading-relaxed">
             {" "}
             <div className="retro-badge text-black px-8 py-4">
               {" "}
@@ -216,7 +219,7 @@ export default function JagerHunterPage() {
                 height={100}
               />{" "}
             </div>{" "}
-            <div className=" text-[16px] leading-9">
+            <div className=" text-sm leading-relaxed">
               {" "}
               <div className="text-[#BBC051] flex flex-row sp item-center align-middle ">
                 {" "}
@@ -249,15 +252,15 @@ export default function JagerHunterPage() {
                 <Image
                   src="/images/hunter.webp"
                   alt="Logo"
-                  width={40}
-                  height={40}
+                  width={30}
+                  height={30}
                 />{" "}
                 <p> Buy $JAGER</p>{" "}
                 <Image
                   src="/images/hunter.webp"
                   alt="Logo"
-                  width={40}
-                  height={40}
+                  width={30}
+                  height={30}
                 />{" "}
               </div>{" "}
             </div>{" "}
@@ -290,7 +293,7 @@ export default function JagerHunterPage() {
               />{" "}
             </div>{" "}
           </section>
-          <section className="mt-10">
+          <section className="mt-10 text-sm leading-relaxed">
             <div className="flex flex-col md:flex-row justify-center items-center gap-x-2 gap-y-3 space-x-2.5">
               {" "}
               <Image
@@ -300,7 +303,7 @@ export default function JagerHunterPage() {
                 height={300}
               />{" "}
               <div>
-                <p className="text-white text-2xl leading-8">
+                <p className="text-white md:text-lg leading-relaxed">
                   {" "}
                   The $JAGER airdrop period is from May 1, 2025, to May 8, 2025.
                   The $JAGER airdrop claim has ended.{" "}
